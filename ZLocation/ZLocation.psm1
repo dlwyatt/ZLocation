@@ -90,4 +90,5 @@ function Set-ZLocation()
 
 
 Set-Alias -Name z -Value Set-ZLocation
-Export-ModuleMember -Function Set-ZLocation, Get-ZLocation -Alias z
+Set-Alias -Name j -Value Set-ZLocation
+Export-ModuleMember -Function Set-ZLocation, Get-ZLocation -Alias z,j
